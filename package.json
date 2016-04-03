@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KROT47/arguments.git"
+    "url": "git+https://github.com/KROT47/magic-arguments.git"
   },
   "keywords": [
     "arguments",
@@ -17,9 +17,9 @@
   "author": "KROT47",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KROT47/arguments/issues"
+    "url": "https://github.com/KROT47/magic-arguments/issues"
   },
-  "homepage": "https://github.com/KROT47/arguments#readme",
+  "homepage": "https://github.com/KROT47/magic-arguments#readme",
   "dependencies": {
     "abstract-value": "^1.0.3",
     "extend": "^3.0.0",
