@@ -34,11 +34,12 @@ function testArray( a, b, c ) {
     return argsArray;
 }
 
-// --- test ---
-test( 123 )                     // => Error: 'a' is required
-test( '123', true )             // => { a: '123', b: { a: 0 }, c: true }
+// --- test --- 
+test( 123 )                     // => Error: 'a' is required 
+test( 123, '456', [] )          // => Error: no such combination
+
+test( '123', true )             // => { a: '123', b: { a: 0 }, c: true } 
 test( '123', function D() {} )  // => { a: '123', b: { a: 1 }, c: false, d: function D() {} }
-test( 123, '456', [] )          // => { a: '456', b: [], c: false }
 
 
 // --- testArray ---
@@ -75,10 +76,12 @@ function test2( str, action ) {
 }
 
 // --- test ---
-test() // => { str: 'Hello, world!', action: null }
+test()      // => { str: '', action: null }
+test( '' )  // => { str: 'Hello, world!', action: null }
 
 // --- test2 ---
-test2() // => { str: 'undefined world!', action: null }
+test2()     // => { str: '', action: null }
+test2( '' ) // => { str: 'undefined world!', action: null }
 
 // --- handlers ---
 function updateStr( value, name, result ) {
@@ -88,7 +91,7 @@ function updateStr( value, name, result ) {
 }
 ```
   
-  
+
 **Using magic with unordered arguments:**  
 *This could be strange so don't surprize. I don't know why somebody may want this)*
 ```js

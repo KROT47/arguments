@@ -144,7 +144,10 @@ GoArguments.prototype = {
 			configArg = this.config[ argName ];
 
 			// handlers time
-			if ( configArg.handlers && configArg.handlers.length ) {
+			if ( configArg.handlers
+				&& configArg.handlers.length
+				&& result[ argName ] !== undefined
+			) {
 				/*// bind current result to update function
 				updateResult = updateResult ? updateResult : UpdateResult.bind( result );*/
 				// execute each handler
