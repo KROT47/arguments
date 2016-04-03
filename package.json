@@ -1,0 +1,28 @@
+{
+  "name": "magic-arguments",
+  "version": "1.0.0",
+  "description": "Brings magic to working with arguments",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KROT47/arguments.git"
+  },
+  "keywords": [
+    "arguments",
+    "javascript"
+  ],
+  "author": "KROT47",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KROT47/arguments/issues"
+  },
+  "homepage": "https://github.com/KROT47/arguments#readme",
+  "dependencies": {
+    "abstract-value": "^1.0.3",
+    "extend": "^3.0.0",
+    "instanceof": "^1.0.2"
+  }
+}
