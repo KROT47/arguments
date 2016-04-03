@@ -15,14 +15,14 @@ describe('#func', function () {
 	// ordered
 	function orderedTest( config ) {
 		return function ( a, b, c ) {
-			return Arguments( arguments ).using( config );
+			return Arguments( arguments, config );
 		}
 	}
 
 	// disordered
 	function unorderedTest( config ) {
 		return function ( a, b, c ) {
-			return Arguments( arguments ).using( true, config );
+			return Arguments( arguments, config, true );
 		}
 	}
 	

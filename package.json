@@ -1,6 +1,6 @@
 {
   "name": "magic-arguments",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Brings magic to working with arguments",
   "main": "index.js",
   "scripts": {

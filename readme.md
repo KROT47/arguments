@@ -47,6 +47,7 @@ testArray( 123, '456' ) // => [ 123, '456' ]
 // --- helpers ---
 function generateFunc() { return { a: someVar++ } }
 ```
+  
 
 
 **Advanced usage:**
@@ -86,7 +87,8 @@ function updateStr( value, name, result ) {
 	return value + this.msg;
 }
 ```
-
+  
+  
 **Using magic with unordered arguments:**  
 *This could be strange so don't surprize. I don't know why somebody may want this)*
 ```js
