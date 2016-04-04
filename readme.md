@@ -3,8 +3,10 @@
 Transforms "arguments" object to { key: value } object where key is argument name.  
 Also can:
 - transform "arguments" object to array
-- return array of function arguments names
+- return array of function arguments names  
 
+*As for me it's ennoying to use many if-then to define what arguments the function with possibility to be overriden gets.*  
+  
 **Basic usage:**
 
 ```js
