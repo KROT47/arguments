@@ -1,6 +1,6 @@
 {
   "name": "magic-arguments",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Brings magic to working with arguments",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/KROT47/magic-arguments#readme",
   "dependencies": {
-    "abstract-value": "^1.0.3",
+    "abstract-value": "^2.0.1",
     "extend": "^3.0.0",
     "instanceof": "^1.0.2"
   }

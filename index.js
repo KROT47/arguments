@@ -1,7 +1,7 @@
 
 /* --------------------------------- Required Modules --------------------------------- */
 
-const Value = require( 'abstract-value' );
+const Value = require( 'abstract-value' )( 'Value' );
 
 const Instanceof = require( 'instanceof' );
 
